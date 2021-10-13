@@ -1,0 +1,23 @@
+.prices__box {
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.price__rangeLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.price__rangeInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__rangeInput input {
+  width: 30%;
+  border: none;
+  margin-bottom: 10px;
+}

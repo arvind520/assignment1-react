@@ -1,0 +1,23 @@
+/* MENU */
+.row__slider {
+  display: flex;
+  gap: 30px;
+}
+
+.menu {
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  width: 30%;
+}
+.cat__item:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.activeItem {
+  color: deepskyblue;
+}
+
+.activeItem:hover {
+  color: deepskyblue;
+}

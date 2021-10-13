@@ -1,0 +1,11 @@
+.main__section {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .main__section {
+    display: block;
+  }
+}

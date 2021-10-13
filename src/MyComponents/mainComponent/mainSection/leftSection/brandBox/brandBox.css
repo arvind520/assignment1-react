@@ -1,0 +1,44 @@
+.brands {
+  padding: 25px 20px;
+  background-color: whitesmoke;
+}
+.brand__heading {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.brand_item {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.brand_item:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.brand_item1 {
+  font-size: 18px;
+}
+.brand_item2 {
+  font-size: 16px;
+}
+.brand_item3 {
+  font-size: 14px;
+}
+.brand_item4 {
+  font-size: 12px;
+}
+
+.brand__selected {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.brand__selected:hover {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: 600;
+}

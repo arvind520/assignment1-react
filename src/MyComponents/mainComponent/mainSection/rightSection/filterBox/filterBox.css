@@ -1,0 +1,43 @@
+.filter__box {
+  background-color: whitesmoke;
+  font-size: 13px;
+  display: flex;
+  gap: 30px;
+  padding: 0 15px;
+}
+
+.view__filter {
+  margin-left: auto;
+}
+
+.no_of_items,
+.sort_by,
+.show,
+.view__filter,
+.hamBurger {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sort_by select,
+.show select {
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
+  width: 100px;
+  padding: 2px;
+}
+
+.hamBurger {
+  font-size: medium;
+  color: rgb(187, 187, 187);
+  cursor: pointer;
+}
+
+.view__filter {
+  font-size: medium;
+  background-color: lightgray;
+  padding: 15px;
+  color: rgb(0, 0, 126);
+  cursor: pointer;
+}

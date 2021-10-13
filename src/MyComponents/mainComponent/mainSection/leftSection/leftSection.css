@@ -1,0 +1,17 @@
+.left__section {
+  width: 30%;
+}
+
+.moreButton {
+  background-color: whitesmoke;
+  margin: 30px 0;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.moreButton:hover {
+  color: lightgray;
+}

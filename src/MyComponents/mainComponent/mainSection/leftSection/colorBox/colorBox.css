@@ -1,0 +1,73 @@
+.color__box {
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+.colorPicker {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.outer__color {
+  position: relative;
+  width: 23px;
+  height: 23px;
+  border-radius: 23px;
+}
+
+.inner__color {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  padding: 1px;
+
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+}
+
+.color1-border {
+  border: 2px solid blue;
+}
+
+.color1-fill {
+  background-color: blue;
+}
+
+.color2-border {
+  border: 2px solid red;
+}
+
+.color2-fill {
+  background-color: red;
+}
+.color3-border {
+  border: 2px solid black;
+}
+
+.color3-fill {
+  background-color: black;
+}
+.color4-border {
+  border: 2px solid yellow;
+}
+
+.color4-fill {
+  background-color: yellow;
+}
+.color5-border {
+  border: 2px solid pink;
+}
+
+.color5-fill {
+  background-color: pink;
+}
+.color6-border {
+  border: 2px solid wheat;
+}
+
+.color6-fill {
+  background-color: wheat;
+}

@@ -1,0 +1,69 @@
+/* ! footer */
+
+.footer {
+  border-top: 1px solid rgba(214, 214, 214, 0.94);
+  border-bottom: 1px solid rgba(214, 214, 214, 0.94);
+}
+
+.footer .container {
+  display: flex;
+  gap: 100px;
+  margin: 50px auto;
+}
+
+.footer__content {
+  width: 30%;
+}
+
+.footer__text {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.footer__heading {
+  margin-top: 20px;
+}
+
+.company__heading {
+  display: flex;
+  align-items: center;
+}
+
+.beepHeading {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  font-weight: 600;
+  color: gray;
+}
+
+.follow__logo {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/* ! Copyright part */
+.copywrite__contents .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.copywrite__text {
+  color: lightgray;
+  font-size: 14px;
+}
+
+.cards__imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards__imgs img {
+  height: 20px;
+  margin: auto 10px;
+}
