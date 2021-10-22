@@ -1,12 +1,12 @@
 import "./filterBox.css";
-import { itemsData } from "../items/itemsData.js";
+import { itemsData } from "../../itemsData.js";
 export default function FilterBox(props) {
   const { showValue, setShowValue, sortValue, setSortValue } = props;
   function sortHandler(event) {
     setSortValue(event.target.value);
   }
   function showHandler(event) {
-    setShowValue(event.target.value);
+    setShowValue(Number(event.target.value));
   }
 
   return (

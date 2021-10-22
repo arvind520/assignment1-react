@@ -1,7 +1,6 @@
 import "./rightSection.css";
 import FilterBox from "./filterBox/filterBox";
 import Items from "./items/items";
-import PageNumber from "./pageNumber/pageNumber";
 import { useState } from "react";
 export default function RightSection() {
   const [showValue, setShowValue] = useState(12);
@@ -15,8 +14,7 @@ export default function RightSection() {
           sortValue={sortValue}
           setSortValue={setSortValue}
         ></FilterBox>
-        <Items showValue={showValue}></Items>
-        <PageNumber></PageNumber>
+        <Items showValue={showValue} sortValue={sortValue}></Items>
       </div>
     </>
   );

@@ -1,7 +1,9 @@
 import "./colorBox.css";
-import { useState } from "react";
+import { leftContext } from "../../mainSection";
+import { useContext } from "react";
 export default function ColorBox() {
-  const [activeColor, setActiveColor] = useState(1);
+  const myContext = useContext(leftContext);
+  let { activeColor, setActiveColor } = myContext;
   function handleBorder(event) {
     setActiveColor(parseInt(event.target.classList[0].charAt(5)));
   }
