@@ -35,7 +35,7 @@ function pickRandomColor() {
 
 export const itemsData = [];
 
-for (let k = 0; k < 100; k++) {
+for (let k = 0; k < 500; k++) {
   let prices = generateRandomMRPandOfferPrice();
   itemsData.push({
     productName: generateRandomName(),
